@@ -1,0 +1,28 @@
+body {
+    .classes-container {
+        .content {
+            margin-left: 30px;
+            .add-class-input {
+                padding: 6px 0px;
+                font-size: 14px;
+                text-align: center;
+                outline: none;
+                border-radius: 8px;
+                border: none;
+            }
+            .add-class-button {
+                padding: 6px 12px;
+                font-size: 14px;
+                margin-left: 10px;
+                border-radius: 8px;
+                border: none;
+                background: white;
+                
+                &:hover {
+                    cursor: pointer;
+                    background: rgb(180, 180, 180);
+                }
+            }
+        }
+    }
+}

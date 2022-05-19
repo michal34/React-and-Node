@@ -1,0 +1,33 @@
+.header-container {
+    width: 100%;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    .header-left {
+        width: 200px;
+    }
+    .header-center {
+        width: 600px;
+        margin-right: -32px;
+    }
+    .header-right {
+        max-width: 200px;
+        text-align: right;
+    }
+    .logout-button {
+        padding: 8px 14px;
+        margin-right: 32px;
+        border: none;
+        border-radius: 14px;
+        margin-top: 32px;
+        outline: none;
+        color: black;
+        font-size: 18px;
+        background: white;
+        &:hover {
+            cursor: pointer;
+            color: red;
+        }
+    }
+}

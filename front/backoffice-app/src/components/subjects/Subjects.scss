@@ -1,0 +1,27 @@
+body {
+    .subjects-container {
+        .content {
+            margin-left: 30px;
+            .add-subject-input {
+                padding: 6px 0px;
+                font-size: 14px;
+                text-align: center;
+                outline: none;
+                border-radius: 8px;
+                border: none;
+            }
+            .add-subject-button {
+                padding: 6px 12px;
+                font-size: 14px;
+                margin-left: 10px;
+                border-radius: 8px;
+                border: none;
+                background: white;
+                &:hover {
+                    cursor: pointer;
+                    background: rgb(180, 180, 180);
+                }
+            }
+        }
+    }
+}
